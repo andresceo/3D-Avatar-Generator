@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create your avatar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>Create your avatar!</h1>
+            <p>Now we have 3D avatars</p>
+            <form id="avatar-form">
+                <label for="nickname">Nickname</label>
+                <input type="text" id="nickname" name="nickname" value="insertarnombre">
+                <label for="description">Description</label>
+                <input type="text" id="description" name="description" value="insertardescripcion">
+                <label for="avatar">Avatar</label>
+                <input type="text" id="avatar" name="avatar" value="insertarurl">
+                <button type="submit" id="generate-button">Generate code</button>
+            </form>
+            <a href="https://www.github.com">www.github.com</a>
+        </div>
+        <div class="avatar-container">
+            <iframe id="avatar-preview" srcdoc="" frameborder="0"></iframe>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
