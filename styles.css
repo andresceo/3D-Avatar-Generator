@@ -115,6 +115,6 @@ body {
 
 @media (max-width: 767px) {
     .avatar-container {
-        height: 500px; /* Aumenta la altura para dispositivos móviles */
+        height: 400px; /* Aumenta la altura para dispositivos móviles */
     }
 }
