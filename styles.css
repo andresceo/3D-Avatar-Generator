@@ -114,7 +114,29 @@ body {
 }
 
 @media (max-width: 767px) {
+    .container {
+        max-height: 100vh;
+        overflow-y: auto;
+    }
+
     .avatar-container {
         height: 400px; /* Aumenta la altura para dispositivos móviles */
+    }
+
+    .form-container {
+        padding: 20px 10px; /* Reduce padding para dispositivos móviles */
+    }
+
+    .form-container input, .form-container button {
+        font-size: 14px; /* Reduce el tamaño de fuente para dispositivos móviles */
+        padding: 8px; /* Reduce el padding de los inputs y el botón */
+    }
+
+    .form-container h1 {
+        font-size: 18px; /* Reduce el tamaño del título para dispositivos móviles */
+    }
+
+    .form-container p {
+        font-size: 14px; /* Reduce el tamaño del texto para dispositivos móviles */
     }
 }
