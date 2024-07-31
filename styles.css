@@ -50,6 +50,7 @@ body {
     padding: 10px;
     font-size: 16px;
     border: none;
+    color: #777;
     border-bottom: 2px solid black;
 }
 
@@ -85,7 +86,7 @@ body {
     position: relative;
     margin-top: 20px;
     padding: 20px;
-    height: 300px; /* Altura inicial para dispositivos más grandes */
+    height: 300px;
 }
 
 #avatar-preview {
@@ -109,7 +110,7 @@ body {
     .avatar-container {
         margin-top: 0;
         padding: 0;
-        height: auto; /* Altura automática para dispositivos más grandes */
+        height: auto;
     }
 }
 
@@ -120,23 +121,23 @@ body {
     }
 
     .avatar-container {
-        height: 400px; /* Aumenta la altura para dispositivos móviles */
+        height: 400px;
     }
 
     .form-container {
-        padding: 20px 10px; /* Reduce padding para dispositivos móviles */
+        padding: 20px 10px;
     }
 
     .form-container input, .form-container button {
-        font-size: 14px; /* Reduce el tamaño de fuente para dispositivos móviles */
-        padding: 8px; /* Reduce el padding de los inputs y el botón */
+        font-size: 14px;
+        padding: 8px;
     }
 
     .form-container h1 {
-        font-size: 18px; /* Reduce el tamaño del título para dispositivos móviles */
+        font-size: 18px;
     }
 
     .form-container p {
-        font-size: 14px; /* Reduce el tamaño del texto para dispositivos móviles */
+        font-size: 14px;
     }
 }
