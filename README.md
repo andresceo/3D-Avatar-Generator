@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 <div class="content" align="center">
         <img src="https://github.com/andresceo/beta04/blob/main/assets/page1.png">
         <img src="https://github.com/andresceo/beta04/blob/main/assets/page2.png">
@@ -5,3 +7,9 @@
         <p> </p>
         <p>All names used as examples in the visual are fictitious and do not represent any entity or person.</p>
 </div>
+
+[botonsencillo](#top)
+
+o
+
+<a href="#top" style="display:inline-block;padding:10px 20px;background-color:#007bff;color:#fff;border-radius:5px;text-align:center;text-decoration:none;">botonhtml</a>
