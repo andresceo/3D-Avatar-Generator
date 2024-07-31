@@ -7,4 +7,4 @@
         <p>All names used as examples in the visual are fictitious and do not represent any entity or person.</p>
 </div>
 
-                                                                                          [Flying again 🚀🌙🌙](#top)
+                                                                                [Flying again 🚀🌙🌙](#top)
